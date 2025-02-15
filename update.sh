@@ -30,4 +30,4 @@ cd ..
 
 git add public/
 git commit -m "Update public submodule."
-git push origin master
+git push 
