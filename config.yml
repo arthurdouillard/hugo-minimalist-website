@@ -13,11 +13,11 @@ menu:
         - name: Papers
           url: papers/
           weight: 2
-        - name: Courses
-          url: courses/
-          weight: 3
-      #  - name: Blog
-      #    url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+      #  - name: Courses
+      #    url: courses/
+      #    weight: 3
+      #  - name: Posts
+      #    url: posts/
       #    weight: 6
 
 params:
@@ -47,10 +47,15 @@ params:
     profileMode:
           enabled: true
           title: Arthur Douillard
-          subtitle: "I'm a researcher at DeepMind in London. I'm currently working on distributed modular LLM :)"
+          subtitle: "I'm a senior researcher at DeepMind in London. I'm currently working on distributed modular LLM :)"
           imageUrl: "portrait.jpg"
           imageWidth: 160
           imageHeight: 160
+          buttons:
+         #   - name: Posts
+         #     url: posts/
+            - name: DeepCourse
+              url: https://arthurdouillard.com/deepcourse
         #  buttons:
         #    - name: Papers
         #      url: papers/
