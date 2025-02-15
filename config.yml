@@ -10,9 +10,12 @@ taxonomies:
 
 menu:
     main:
-        - name: Papers
-          url: papers/
+        - name: Research
+          url: research/
           weight: 2
+        - name: DeepCourse
+          url: https://arthurdouillard.com/deepcourse
+          weight: 3
       #  - name: Courses
       #    url: courses/
       #    weight: 3
@@ -54,6 +57,8 @@ params:
           buttons:
          #   - name: Posts
          #     url: posts/
+            - name: Research
+              url: research/
             - name: DeepCourse
               url: https://arthurdouillard.com/deepcourse
         #  buttons:
